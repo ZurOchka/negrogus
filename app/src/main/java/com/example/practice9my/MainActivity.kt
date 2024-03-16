@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         val imageView3: ImageView = findViewById(R.id.pawl)
         val smk: Animation = AnimationUtils.loadAnimation(this, R.anim.smekh)
         imageView3.startAnimation(smk)
+
     }
 
 }
